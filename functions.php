@@ -22,6 +22,15 @@ add_action('wp_enqueue_scripts', 'jquery');
 
 
 
+function custom_add_google_fonts() {
+    wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy', false );
+    }
+    add_action( 'wp_enqueue_scripts', 'custom_add_google_fonts' );
+   
+
+
+
+
 function myjavascripts() {
 
 	wp_register_script( 'bsscript', get_stylesheet_directory_uri() . '/js/bootstrap.min.js' );

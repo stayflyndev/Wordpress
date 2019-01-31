@@ -1,8 +1,7 @@
-<?php /* Template Name: About  */ ?>
+<?php /* Template Name: contact  */ ?>
 
  
 <?php get_header();?>
-
 <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -13,28 +12,21 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="<?php echo get_template_directory_uri(); ?> /portfolio">Portfolio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="<?php echo get_template_directory_uri(); ?>  /portfolio">Portfolio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-link">
-            <?php Echo "<a href=https://github.com/yourtechsis> github </a>"?> 
-            </li>
+            <?php Echo "<a href=https://github.com/yourtechsis> github </a>"?>         
+             </li>
            
         </div>
       </nav>
     </header>
 
-<div class="container">
-<div class="jumbotron" id="jumbo">
-  <h1 class="display-4">Technologies</h1>
- <p>
- HTML, CSS, JAVASCRIPT, jQUERY, PHP, NODE.JS, REACT.JS, BOOTSTRAP, MATERIALIZE, GITHUB, GIT, MONGODB, MYSQL, EXPRESS, HEROKU, WORDPRESS, JOOMLA, SHAREPOINT, ANDROID SDK, CLOUD TECHNOLOGIES, VIRTUALIZATION, SYSTEM ADMINISTRATION, NETWORKING
+  
 
 
-
-  </p>
+    </div>
+  </div>
 </div>
-     </div>
-
-
 
 <?php get_footer();?>
